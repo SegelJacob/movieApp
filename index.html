@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <title>Movie Application</title>
+  </head>
+  <body>
+    <header>
+      <h1>Movie App</h1>
+      <form id="form">
+        <input type="text" class="search" id="search" placeholder="search" />
+      </form>
+    </header>
+    <div class="container">
+      <div class="buttonsContainer">
+        <div class="previous">
+          <button id="btnPrevious" class="btnPrevious">
+            <i class="fas fa-angle-double-left"></i>
+          </button>
+        </div>
+        <div class="next">
+          <button id="btnNext" class="btnNext">
+            <i class="fas fa-angle-double-right"></i>
+          </button>
+        </div>
+      </div>
+      <main id="main"></main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
